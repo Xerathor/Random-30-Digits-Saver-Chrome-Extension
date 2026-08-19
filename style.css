@@ -1,0 +1,22 @@
+.rds-save-btn {
+  position: absolute;
+  z-index: 2147483647; /* Максимальный приоритет поверх всех слоев */
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  display: none;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  transition: background 0.2s, transform 0.1s;
+}
+
+.rds-save-btn:hover {
+  background: rgba(0, 0, 0, 0.9);
+  transform: scale(1.05);
+}
